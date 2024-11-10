@@ -83,9 +83,7 @@ namespace PokeroleBuddyHelper
 
         private async Task<PokemonCollectionWrapper> PromptForFile(FilePickerFileType jsonFileType)
         {
-            Title = "DEBUGGING";
             var result = await FilePicker.PickAsync();
-            Title = "DEBUGGING";
 
             if (result != null)
             {
@@ -101,10 +99,12 @@ namespace PokeroleBuddyHelper
                     if (importedPokemonWrapper == null)
                     {
                         System.Diagnostics.Debug.WriteLine("Deserialization failed: importedPokemonWrapper is null");
+                        Title = "importedPokemonWrapper is null";
                         return null;
                     }
                     else if (importedPokemonWrapper.PokemonCollection == null)
                     {
+                        Title = "PokemonCollection is null";
                         System.Diagnostics.Debug.WriteLine("Deserialization failed: PokemonCollection is null");
                     }
                     else return importedPokemonWrapper;
@@ -122,6 +122,7 @@ namespace PokeroleBuddyHelper
                     return null;
                 }
             }
+            Title = "Result was null";
             return null;
         }
 
