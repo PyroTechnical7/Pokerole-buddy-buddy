@@ -83,8 +83,9 @@ namespace PokeroleBuddyHelper
 
         private async Task<PokemonCollectionWrapper> PromptForFile(FilePickerFileType jsonFileType)
         {
+            Title = "DEBUGGING";
             var result = await FilePicker.PickAsync();
-            Title = $"File Name: {result.FileName}";
+            Title = "DEBUGGING";
 
             if (result != null)
             {
