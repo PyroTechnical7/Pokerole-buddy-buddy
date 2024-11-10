@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeroleBuddyHelper.MovesPage"
+             Title="Moves Page">
+    <StackLayout Padding="10">
+        <SearchBar x:Name="MoveSearchBar" Placeholder="Search moves" TextChanged="OnSearchBarTextChanged"/>
+        <FlexLayout>
+            <Button Text="Import Move Data" Clicked="OnImportMovesClicked"/>
+            <Button Text="Export to json" Clicked="OnExportMovesClicked"/>
+        </FlexLayout>
+        <ListView x:Name="MoveListView" ItemSelected="OnMoveSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}" Detail="{Binding Description}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Add Move" Clicked="OnAddMoveClicked" />
+    </StackLayout>
+</ContentPage>

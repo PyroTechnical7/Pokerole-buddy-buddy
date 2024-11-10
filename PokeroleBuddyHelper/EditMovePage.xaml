@@ -1,0 +1,24 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeroleBuddyHelper.EditMovePage">
+    <StackLayout Padding="10">
+        <Label Text="Edit Move" FontSize="Large" HorizontalOptions="Center" />
+
+        <FlexLayout>
+            <Button Text="Save" Clicked="OnSaveClicked" />
+            <Button Text="Cancel" Clicked="OnCancelClicked"/>
+        </FlexLayout>
+        <Entry x:Name="NameEntry" Placeholder="Name" Text="{Binding Move.Name}" />
+        <Picker x:Name="TypePicker" ItemsSource="{Binding Types}" SelectedItem="{Binding Move.Type}" />
+        <Entry x:Name="PowerEntry" Placeholder="Power" Text="{Binding Move.Power}" Keyboard="Numeric" />
+        <Entry x:Name="Damage1Entry" Placeholder="Damage 1" Text="{Binding Move.Damage1}" />
+        <Entry x:Name="Damage2Entry" Placeholder="Damage 2" Text="{Binding Move.Damage2}" />
+        <Entry x:Name="Accuracy1Entry" Placeholder="Accuracy 1" Text="{Binding Move.Accuracy1}" />
+        <Entry x:Name="Accuracy2Entry" Placeholder="Accuracy 2" Text="{Binding Move.Accuracy2}" />
+        <Entry x:Name="TargetEntry" Placeholder="Target" Text="{Binding Move.Target}" />
+        <Entry x:Name="EffectEntry" Placeholder="Effect" Text="{Binding Move.Effect}" />
+        <Entry x:Name="DescriptionEntry" Placeholder="Description" Text="{Binding Move.Description}" />
+        <Entry x:Name="IdEntry" Placeholder="ID" Text="{Binding Move.Id}" />
+        <Entry x:Name="CategoryEntry" Placeholder="Category" Text="{Binding Move.Category}" />
+    </StackLayout>
+</ContentPage>

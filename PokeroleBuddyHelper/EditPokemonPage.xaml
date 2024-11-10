@@ -1,0 +1,288 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PokeroleBuddyHelper"
+             x:Class="PokeroleBuddyHelper.EditPokemonPage">
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Label Text="Edit Pokémon" FontSize="Large" HorizontalOptions="Center" />
+
+            <FlexLayout>
+                <Button Text="Save" Clicked="OnSaveClicked" />
+                <Button Text="Cancel" Clicked="OnCancelClicked"/>
+            </FlexLayout>
+
+            <Entry x:Name="NameEntry" Placeholder="Name" Text="{Binding Pokemon.Name}" />
+
+            <FlexLayout AlignItems="Center" Direction="Row" Wrap="NoWrap" JustifyContent="Start" Margin="0,10">
+                <Label Text="Number:" />
+                <Entry x:Name="NumberEntry" Placeholder="Pokemon Number" Text="{Binding Pokemon.Number}" Keyboard="Numeric" />
+            </FlexLayout>
+
+            <FlexLayout>
+                <Label Text="Toggle auto convertion of weight?: "/>
+                <Switch IsToggled="{Binding AutoConvertWeightEnabled}" />
+            </FlexLayout>
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Weight (kg):" />
+                <Entry x:Name="WeightKgEntry" Placeholder="Weight in kg" Text="{Binding Pokemon.Weight.Kilograms}" Keyboard="Numeric" TextChanged="OnWeightKgChanged" />
+            </FlexLayout>
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Weight (lbs):" />
+                <Entry x:Name="WeightLbsEntry" Placeholder="Weight in lbs" Text="{Binding Pokemon.Weight.Pounds}" Keyboard="Numeric" TextChanged="OnWeightLbsChanged" />
+            </FlexLayout>
+
+            <FlexLayout>
+                <Label Text="Toggle auto convertion of height?: "/>
+                <Switch IsToggled="{Binding AutoConvertHeightEnabled}" />
+            </FlexLayout>
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Height (m):" />
+                <Entry x:Name="HeightMEntry" Placeholder="Height in meters" Text="{Binding Pokemon.Height.Meters}" Keyboard="Numeric" TextChanged="OnHeightMChanged" />
+            </FlexLayout>
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Height (ft):" />
+                <Entry x:Name="HeightFtEntry" Placeholder="Height in feet" Text="{Binding Pokemon.Height.Feet}" Keyboard="Numeric" TextChanged="OnHeightFtChanged" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Direction="Row" Wrap="NoWrap" JustifyContent="Start" Margin="0,10">
+                <Label Text="Type 1:" />
+                <Picker ItemsSource="{Binding Types}" SelectedItem="{Binding Pokemon.Type1}" Margin="0,0,20,0"/>
+
+                <Label Text="Type 2:" />
+                <Picker ItemsSource="{Binding Types}" SelectedItem="{Binding Pokemon.Type2}" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="ID:"/>
+                <Entry x:Name="IdEntry" Placeholder="ID" Text="{Binding Pokemon._id}"/>
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Dex ID:"/>
+                <Entry x:Name="DexIDEntry" Placeholder="Dex ID" Text="{Binding Pokemon.DexID}"/>
+            </FlexLayout>
+            
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Dex Title:"/>
+                <Entry x:Name="DexCategoryEntry" Placeholder="Dex Category" Text="{Binding Pokemon.DexCategory}" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Dex Description:"/>
+                <Entry x:Name="DexDescriptionEntry" Placeholder="Dex Description" Text="{Binding Pokemon.DexDescription}" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Event Ability:"/>
+                <Entry x:Name="EventAbilitiesEntry" Placeholder="Event Abilities" Text="{Binding Pokemon.EventAbilities}" />
+            </FlexLayout>
+
+            <FlexLayout Direction="Row" Wrap="Wrap" JustifyContent="SpaceEvenly">
+                <Button Text="Auto Fill Sprites Non-Unique"
+                    Clicked="OnAutoFillSpritesNonUniqueClicked" />
+                <Button Text="Auto Fill Sprites Unique Gender"
+                    Clicked="OnAutoFillSpritesWithUniqueGenderClicked" />
+                <Button Text="Auto Fill Sprites Non-Unique with Shiny"
+                    Clicked="OnAutoFillSpritesNonUniqueWithShinyClicked" />
+                <Button Text="Auto Fill Sprites Unique Gender with Shiny"
+                    Clicked="OnAutoFillSpritesWithUniqueGenderWithShinyClicked" />
+            </FlexLayout>
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Box Sprite:"/>
+                <Entry x:Name="BoxSpriteEntry" Placeholder="Box Sprite" Text="{Binding Pokemon.BoxSprite}" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Box Sprite Shiny:"/>
+                <Entry x:Name="BoxSpriteShinyEntry" Placeholder="Box Sprite Shiny" Text="{Binding Pokemon.BoxSpriteShiny}" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Box Sprite Female:"/>
+                <Entry x:Name="BoxSpriteFemaleEntry" Placeholder="Box Sprite Female" Text="{Binding Pokemon.BoxSpriteFemale}" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Box Sprite Female Shiny:"/>
+                <Entry x:Name="BoxSpriteFemaleShinyEntry" Placeholder="Box Sprite Female Shiny" Text="{Binding Pokemon.BoxSpriteFemaleShiny}" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Evolves From:"/>
+                <Entry x:Name="EvolvesFromEntry" Placeholder="Evolves From" Text="{Binding Pokemon.EvolvesFrom}" />
+            </FlexLayout>
+
+            <Label Text="Original Stats" FontSize="Medium" HorizontalOptions="Center" />
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Original HP:" />
+                <Entry x:Name="OriginalHPEntry" Placeholder="Original HP" Text="{Binding OriginalHP}" Keyboard="Numeric" />
+            </FlexLayout>
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Original Attack:" />
+                <Entry x:Name="OriginalAttackEntry" Placeholder="Original Attack" Text="{Binding OriginalAttack}" Keyboard="Numeric" />
+            </FlexLayout>
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Original Defense:" />
+                <Entry x:Name="OriginalDefenseEntry" Placeholder="Original Defense" Text="{Binding OriginalDefense}" Keyboard="Numeric" />
+            </FlexLayout>
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Original Special Attack:" />
+                <Entry x:Name="OriginalSpecialAttackEntry" Placeholder="Original Special Attack" Text="{Binding OriginalSpecialAttack}" Keyboard="Numeric" />
+            </FlexLayout>
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Original Special Defense:" />
+                <Entry x:Name="OriginalSpecialDefenseEntry" Placeholder="Original Special Defense" Text="{Binding OriginalSpecialDefense}" Keyboard="Numeric" />
+            </FlexLayout>
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Original Speed:" />
+                <Entry x:Name="OriginalSpeedEntry" Placeholder="Original Speed" Text="{Binding OriginalSpeed}" Keyboard="Numeric" />
+            </FlexLayout>
+            <Button Text="Convert Stats" Clicked="OnConvertStatsClicked" />
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Base HP:"/>
+                <Entry x:Name="BaseHPEntry" Placeholder="Base HP" Text="{Binding Pokemon.BaseHP}" Keyboard="Numeric" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Min Strength:"/>
+                <Entry x:Name="MinStrengthEntry" Placeholder="Min Strength" Text="{Binding Pokemon.MinStrength}" Keyboard="Numeric" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Max Strength:"/>
+                <Entry x:Name="MaxStrengthEntry" Placeholder="Max Strength" Text="{Binding Pokemon.MaxStrength}" Keyboard="Numeric" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Min Dexterity:"/>
+                <Entry x:Name="MinDexterityEntry" Placeholder="Min Dexterity" Text="{Binding Pokemon.MinDexterity}" Keyboard="Numeric" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Max Dexterity:"/>
+                <Entry x:Name="MaxDexterityEntry" Placeholder="Max Dexterity" Text="{Binding Pokemon.MaxDexterity}" Keyboard="Numeric" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Min Vitality:"/>
+                <Entry x:Name="MinVitalityEntry" Placeholder="Min Vitality" Text="{Binding Pokemon.MinVitality}" Keyboard="Numeric" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Max Vitality:"/>
+                <Entry x:Name="MaxVitalityEntry" Placeholder="Max Vitality" Text="{Binding Pokemon.MaxVitality}" Keyboard="Numeric" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Min Special:"/>
+                <Entry x:Name="MinSpecialEntry" Placeholder="Min Special" Text="{Binding Pokemon.MinSpecial}" Keyboard="Numeric" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Max Special:"/>
+                <Entry x:Name="MaxSpecialEntry" Placeholder="Max Special" Text="{Binding Pokemon.MaxSpecial}" Keyboard="Numeric" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Min Insight:"/>
+                <Entry x:Name="MinInsightEntry" Placeholder="Min Insight" Text="{Binding Pokemon.MinInsight}" Keyboard="Numeric" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Max Insight:"/>
+                <Entry x:Name="MaxInsightEntry" Placeholder="Max Insight" Text="{Binding Pokemon.MaxInsight}" Keyboard="Numeric" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Recommended Rank:"/>
+                <Picker ItemsSource="{Binding TrainerRanks}" SelectedItem="{Binding Pokemon.RecommendedRank}"/>
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Gender Type:"/>
+                <Picker ItemsSource="{Binding GenderTypes}" SelectedItem="{Binding Pokemon.GenderType}" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Legendary:"/>
+                <Switch IsToggled="{Binding Pokemon.Legendary}" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Good Starter:"/>
+                <Switch IsToggled="{Binding Pokemon.GoodStarter}" />
+            </FlexLayout>
+
+            <Grid ColumnDefinitions="*,*,*">
+                <FlexLayout Grid.Column="0" BackgroundColor="LightGray" Padding="10" Margin="0,0,5,0" Direction="Column">
+                    <Label Text="Ability 1" />
+                    <Entry x:Name="Ability1NameEntry" Placeholder="Ability Name" Text="{Binding Pokemon.Ability1.Name}" />
+                </FlexLayout>
+                <FlexLayout Grid.Column="1" BackgroundColor="LightGray" Padding="10" Margin="0,0,5,0" Direction="Column">
+                    <Label Text="Ability 2" />
+                    <Entry x:Name="Ability2NameEntry" Placeholder="Ability Name" Text="{Binding Pokemon.Ability2.Name}" />
+                </FlexLayout>
+                <FlexLayout Grid.Column="2" BackgroundColor="LightBlue" Padding="10" Margin="0,0,5,0" Direction="Column">
+                    <Label Text="Hidden Ability" />
+                    <Entry x:Name="HiddenAbilityNameEntry" Placeholder="Ability Name" Text="{Binding Pokemon.HiddenAbility.Name}" />
+                </FlexLayout>
+            </Grid>
+
+            <FlexLayout Direction="Column" BackgroundColor="Lavender">
+                <Label Text="Evolutions" FontSize="Medium" HorizontalOptions="Center" />
+                <Button Text="Add Evolution" Clicked="OnAddEvolutionClicked" />
+                <CollectionView ItemsSource="{Binding Pokemon.Evolutions}" HorizontalOptions="StartAndExpand">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Horizontal" />
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Padding="5" WidthRequest="200">
+                                <FlexLayout AlignItems="Center" Margin="0,10">
+                                    <Label Text="To:" />
+                                    <Entry Text="{Binding To}" Placeholder="To" WidthRequest="100"/>
+                                </FlexLayout>
+                                <FlexLayout AlignItems="Center" Margin="0,10">
+                                    <Label Text="Kind:" />
+                                    <Entry Text="{Binding Kind}" Placeholder="Kind" WidthRequest="100"/>
+                                </FlexLayout>
+                                <FlexLayout AlignItems="Center" Margin="0,10">
+                                    <Label Text="Item:" />
+                                    <Entry Text="{Binding Item}" Placeholder="Item" WidthRequest="100"/>
+                                </FlexLayout>
+                                <FlexLayout AlignItems="Center" Margin="0,10">
+                                    <Label Text="Speed:" />
+                                    <Entry Text="{Binding Speed}" Placeholder="Speed" WidthRequest="50" Keyboard="Numeric"/>
+                                </FlexLayout>
+                                <Button Text="Remove"  
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type local:EditPokemonPage}}, Path=DeleteEvolutionCommand}" 
+                            CommandParameter="{Binding .}" />
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </FlexLayout>
+
+            <Label Text="Moves" FontSize="Medium" HorizontalOptions="Center" />
+            <Button Text="Add Move" Clicked="OnAddMoveClicked" />
+            <CollectionView x:Name="MovesView" ItemsSource="{Binding Pokemon.Moves}" WidthRequest="400" HorizontalOptions="StartAndExpand">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal" Padding="5">
+                            <Entry Text="{Binding Name}" Placeholder="Move Name" WidthRequest="150"/>
+                            <Picker 
+                    x:Name="LearnedRankPicker"
+                    ItemsSource="{Binding Source={RelativeSource AncestorType={x:Type local:EditPokemonPage}}, Path=BindingContext.TrainerRanks}" 
+                    SelectedItem="{Binding LearnedRank, Mode=TwoWay}" />
+
+                            <Button Text="Remove"  
+                    Command="{Binding Source={RelativeSource AncestorType={x:Type local:EditPokemonPage}}, Path=DeleteMoveCommand}" 
+                    CommandParameter="{Binding .}" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,1150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\evolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\evolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\editpokemonpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\editpokemonpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\editpokemonpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\editpokemonpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\53fedb0e9b9f8871e3c99cb6df00c91150372d8eb9fa56ea5075e05c7b9935d7\\ItemContentControl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PokeroleBuddyHelper\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\custompokemonmovetemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\custompokemonmovetemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\pokerolebuddyhelper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\pokerolebuddyhelper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\pokemonmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\pokemonmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\movespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\movespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\abilitiespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\abilitiespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\itemspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\itemspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\evolutiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\evolutiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\gendertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\gendertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\movespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\movespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\abilitiespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\abilitiespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\itemspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\itemspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\editmovepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\editmovepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\editmovepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\editmovepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\editabilitypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\editabilitypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\editabilitypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\editabilitypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\edititempage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\edititempage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\edititempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\edititempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\platforms\\maccatalyst\\info.plist||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\platforms\\maccatalyst\\info.plist||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\platforms\\maccatalyst\\entitlements.plist||{675322CE-C60D-4035-BD80-ECC42B60B553}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\platforms\\maccatalyst\\entitlements.plist||{675322CE-C60D-4035-BD80-ECC42B60B553}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\platforms\\windows\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\platforms\\windows\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\platforms\\windows\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\platforms\\windows\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\pokemontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\pokemontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\pokemonability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\pokemonability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\trainerrank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\trainerrank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\57804b111f6c41fe9dc9a075d284cd6a914e5cf831f33aea396eaae89e502d2c\\XmlObjectSerializerReadContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\pokemoncollectionwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\pokemoncollectionwrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\services\\pokemonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\services\\pokemonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cian\\AppData\\Local\\SourceServer\\830b61c6947e04dfde46a8853bd5375ffd1037bddb2d42cf1938edfeed70645d\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\Task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cian\\AppData\\Local\\SourceServer\\e8cf7bede84da75be0246beef05f0ea371f8553f4fe002ca1f072eb55fd8aedd\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\weight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\weight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\851ecfa97bc57e9ee32e482c06975110a1b4256d085a8ddd8d7e916c888dca87\\XmlReaderDelegator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\ea3d5eb530910354e20ca65a431baf29a11b1b93cd3d5ed236360396a3fd5b1e\\XmlConvert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cian\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240627000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DnD\\Secret of the Sun Queen\\Pokerole Buddy 1.2.1\\Pokerole Buddy_Data\\StreamingAssets\\MoveDataCollection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DnD\\Secret of the Sun Queen\\Pokerole Buddy 1.2.1\\Pokerole Buddy_Data\\StreamingAssets\\ItemCollection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DnD\\Secret of the Sun Queen\\Pokerole Buddy 1.2.1\\Pokerole Buddy_Data\\StreamingAssets\\AbilityDataCollection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cian\\AppData\\Local\\SourceServer\\cc6a60ec468d593605f295a5d77853ed9a960c680a7a37d7265ed9914269fc24\\src\\libraries\\System.Private.CoreLib\\src\\System\\Number.Parsing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cian\\AppData\\Local\\SourceServer\\067f2a472db43038e5d310f402bad9cb62da4763d5566c0182d38cf9bc0d78a3\\src\\libraries\\System.Private.CoreLib\\src\\System\\Convert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\itemcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\itemcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cian\\AppData\\Local\\SourceServer\\9d20f890ec3dff18387e328f451edc235e27b08d38284c0e8fa2feefb0550efe\\src\\libraries\\System.Text.Json\\src\\System\\Text\\Json\\ThrowHelper.Serialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\damagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\damagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cian\\AppData\\Local\\SourceServer\\05cb7c9936d30c7ab757f9a3fdb4aafef97849bb4bcd644fdb0e2720570a8888\\src\\libraries\\System.Text.Json\\src\\System\\Text\\Json\\Serialization\\JsonConverterOfT.ReadCore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\movecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\movecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\abilitycollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\abilitycollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\services\\abilityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\services\\abilityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\movecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\movecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\70c54d36987359e94c25c54b2dd41736b73cfed43545bcf4ecb70c500fc8e824\\JsonConverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\0637c6ad9c08d73b8d492b08d044dca14edcce15edf3422ec1e0a7a9eae3bd9f\\ThrowHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\7959305f6dbc2f6b65057bb592885c66b3764fe27232059be24145defd66db31\\ObjectDefaultConverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\services\\moveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\services\\moveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\height.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\height.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|c:\\users\\cian\\source\\repos\\pokerolebuddyhelper\\pokerolebuddyhelper\\models\\targettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E16F38E-83F5-477C-BEFE-6BEBE0FE014F}|PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj|solutionrelative:pokerolebuddyhelper\\models\\targettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MovesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\MovesPage.xaml.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\MovesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\MovesPage.xaml.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\MovesPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:45:41.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\Item.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:02:50.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditPokemonPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\EditPokemonPage.xaml.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\EditPokemonPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\EditPokemonPage.xaml.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\EditPokemonPage.xaml.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAlwEsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:30:37.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\Pokemon.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\Pokemon.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\Pokemon.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\Pokemon.cs",
+              "ViewState": "AgIAAEcBAAAAAAAAAIAwwFwBAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T21:59:49.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditPokemonPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\EditPokemonPage.xaml",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\EditPokemonPage.xaml",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\EditPokemonPage.xaml",
+              "RelativeToolTip": "PokeroleBuddyHelper\\EditPokemonPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-09T22:30:00.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PokemonMove.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\PokemonMove.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\PokemonMove.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\PokemonMove.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\PokemonMove.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowBoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:02:40.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\MainPage.xaml.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\MainPage.xaml.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAkwLkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:04:57.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\MainPage.xaml",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\MainPage.xaml",
+              "RelativeToolTip": "PokeroleBuddyHelper\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-09T22:04:42.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Evolution.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\Evolution.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\Evolution.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\Evolution.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\Evolution.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:26:44.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ItemContentControl.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\53fedb0e9b9f8871e3c99cb6df00c91150372d8eb9fa56ea5075e05c7b9935d7\\ItemContentControl.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\53fedb0e9b9f8871e3c99cb6df00c91150372d8eb9fa56ea5075e05c7b9935d7\\ItemContentControl.cs",
+              "ToolTip": "C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\53fedb0e9b9f8871e3c99cb6df00c91150372d8eb9fa56ea5075e05c7b9935d7\\ItemContentControl.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\53fedb0e9b9f8871e3c99cb6df00c91150372d8eb9fa56ea5075e05c7b9935d7\\ItemContentControl.cs [Read Only]",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAewNUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T23:16:35.256Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MovesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\MovesPage.xaml",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\MovesPage.xaml",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\MovesPage.xaml",
+              "RelativeToolTip": "PokeroleBuddyHelper\\MovesPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-02T17:45:02.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAewB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:09:55.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomPokemonMovetemplate.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\CustomPokemonMovetemplate.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\CustomPokemonMovetemplate.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\CustomPokemonMovetemplate.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\CustomPokemonMovetemplate.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T23:06:57.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PokeroleBuddyHelper.csproj",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj",
+              "RelativeToolTip": "PokeroleBuddyHelper\\PokeroleBuddyHelper.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-09T22:06:46.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ItemsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\ItemsPage.xaml.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\ItemsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\ItemsPage.xaml.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\ItemsPage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:48:26.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EditMovePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\EditMovePage.xaml",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\EditMovePage.xaml",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\EditMovePage.xaml",
+              "RelativeToolTip": "PokeroleBuddyHelper\\EditMovePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-02T15:36:54.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Ability.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\Ability.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\Ability.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\Ability.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\Ability.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:14:46.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AbilitiesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\AbilitiesPage.xaml.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\AbilitiesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\AbilitiesPage.xaml.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\AbilitiesPage.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:49:18.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Move.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\Move.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\Move.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\Move.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\Move.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:07:50.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ItemsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\ItemsPage.xaml",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\ItemsPage.xaml",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\ItemsPage.xaml",
+              "RelativeToolTip": "PokeroleBuddyHelper\\ItemsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-02T17:42:07.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EvolutionType.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\EvolutionType.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\EvolutionType.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\EvolutionType.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\EvolutionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T22:03:20.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GenderType.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\GenderType.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\GenderType.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\GenderType.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\GenderType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T23:58:32.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AbilitiesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\AbilitiesPage.xaml",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\AbilitiesPage.xaml",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\AbilitiesPage.xaml",
+              "RelativeToolTip": "PokeroleBuddyHelper\\AbilitiesPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-02T17:44:06.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EditMovePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\EditMovePage.xaml.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\EditMovePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\EditMovePage.xaml.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\EditMovePage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:37:13.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Platforms\\Windows\\App.xaml",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Platforms\\Windows\\App.xaml",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Platforms\\Windows\\App.xaml",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Platforms\\Windows\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-03T00:33:46.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EditAbilityPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\EditAbilityPage.xaml.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\EditAbilityPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\EditAbilityPage.xaml.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\EditAbilityPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:07:40.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EditAbilityPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\EditAbilityPage.xaml",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\EditAbilityPage.xaml",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\EditAbilityPage.xaml",
+              "RelativeToolTip": "PokeroleBuddyHelper\\EditAbilityPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-02T17:07:29.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EditItemPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\EditItemPage.xaml",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\EditItemPage.xaml",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\EditItemPage.xaml",
+              "RelativeToolTip": "PokeroleBuddyHelper\\EditItemPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-02T17:08:35.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditItemPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\EditItemPage.xaml.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\EditItemPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\EditItemPage.xaml.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\EditItemPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:08:44.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\MauiProgram.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:37:48.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Entitlements.plist",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Platforms\\MacCatalyst\\Entitlements.plist",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Platforms\\MacCatalyst\\Entitlements.plist",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Platforms\\MacCatalyst\\Entitlements.plist",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Platforms\\MacCatalyst\\Entitlements.plist",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-09T14:41:03.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Info.plist",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Platforms\\MacCatalyst\\Info.plist",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Platforms\\MacCatalyst\\Info.plist",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Platforms\\MacCatalyst\\Info.plist",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Platforms\\MacCatalyst\\Info.plist",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-09T14:43:28.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PokemonType.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\PokemonType.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\PokemonType.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\PokemonType.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\PokemonType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T23:38:28.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PokemonAbility.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\PokemonAbility.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\PokemonAbility.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\PokemonAbility.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\PokemonAbility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:00:18.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\AppData\\Local\\SourceServer\\830b61c6947e04dfde46a8853bd5375ffd1037bddb2d42cf1938edfeed70645d\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\Task.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\830b61c6947e04dfde46a8853bd5375ffd1037bddb2d42cf1938edfeed70645d\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\Task.cs",
+              "ToolTip": "C:\\Users\\Cian\\AppData\\Local\\SourceServer\\830b61c6947e04dfde46a8853bd5375ffd1037bddb2d42cf1938edfeed70645d\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\Task.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\830b61c6947e04dfde46a8853bd5375ffd1037bddb2d42cf1938edfeed70645d\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\Tasks\\Task.cs",
+              "ViewState": "AgIAAGUHAAAAAAAAAAAlwHkHAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T20:38:23.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PokemonService.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Services\\PokemonService.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Services\\PokemonService.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Services\\PokemonService.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Services\\PokemonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:04:19.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Package.appxmanifest",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Platforms\\Windows\\Package.appxmanifest",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Platforms\\Windows\\Package.appxmanifest",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Platforms\\Windows\\Package.appxmanifest",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Platforms\\Windows\\Package.appxmanifest",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2024-11-03T00:33:14.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Platforms\\Windows\\app.manifest",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Platforms\\Windows\\app.manifest",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Platforms\\Windows\\app.manifest",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Platforms\\Windows\\app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-11-03T00:33:11.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TrainerRank.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\TrainerRank.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\TrainerRank.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\TrainerRank.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\TrainerRank.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T00:03:43.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "XmlObjectSerializerReadContext.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\57804b111f6c41fe9dc9a075d284cd6a914e5cf831f33aea396eaae89e502d2c\\XmlObjectSerializerReadContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\57804b111f6c41fe9dc9a075d284cd6a914e5cf831f33aea396eaae89e502d2c\\XmlObjectSerializerReadContext.cs",
+              "ToolTip": "C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\57804b111f6c41fe9dc9a075d284cd6a914e5cf831f33aea396eaae89e502d2c\\XmlObjectSerializerReadContext.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\57804b111f6c41fe9dc9a075d284cd6a914e5cf831f33aea396eaae89e502d2c\\XmlObjectSerializerReadContext.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAlwKUAAAAFAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:04:35.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PokemonCollectionWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\PokemonCollectionWrapper.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\PokemonCollectionWrapper.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\PokemonCollectionWrapper.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\PokemonCollectionWrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:15:42.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AsyncTaskMethodBuilderT.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\AppData\\Local\\SourceServer\\e8cf7bede84da75be0246beef05f0ea371f8553f4fe002ca1f072eb55fd8aedd\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\e8cf7bede84da75be0246beef05f0ea371f8553f4fe002ca1f072eb55fd8aedd\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
+              "ToolTip": "C:\\Users\\Cian\\AppData\\Local\\SourceServer\\e8cf7bede84da75be0246beef05f0ea371f8553f4fe002ca1f072eb55fd8aedd\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\e8cf7bede84da75be0246beef05f0ea371f8553f4fe002ca1f072eb55fd8aedd\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
+              "ViewState": "AgIAAAsBAAAAAAAAAAAlwB8BAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T20:05:11.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Weight.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\Weight.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\Weight.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\Weight.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\Weight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:02:09.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\AppShell.xaml.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:31:59.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "XmlReaderDelegator.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\851ecfa97bc57e9ee32e482c06975110a1b4256d085a8ddd8d7e916c888dca87\\XmlReaderDelegator.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\851ecfa97bc57e9ee32e482c06975110a1b4256d085a8ddd8d7e916c888dca87\\XmlReaderDelegator.cs",
+              "ToolTip": "C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\851ecfa97bc57e9ee32e482c06975110a1b4256d085a8ddd8d7e916c888dca87\\XmlReaderDelegator.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\851ecfa97bc57e9ee32e482c06975110a1b4256d085a8ddd8d7e916c888dca87\\XmlReaderDelegator.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAlwIcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:04:39.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+              "DocumentMoniker": "C:\\Users\\Cian\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240627000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240627000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+              "ToolTip": "C:\\Users\\Cian\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240627000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240627000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+              "ViewState": "AgIAAGABAAAAAAAAAAAlwHkBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-02T18:45:52.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "XmlConvert.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\ea3d5eb530910354e20ca65a431baf29a11b1b93cd3d5ed236360396a3fd5b1e\\XmlConvert.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ea3d5eb530910354e20ca65a431baf29a11b1b93cd3d5ed236360396a3fd5b1e\\XmlConvert.cs",
+              "ToolTip": "C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\ea3d5eb530910354e20ca65a431baf29a11b1b93cd3d5ed236360396a3fd5b1e\\XmlConvert.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ea3d5eb530910354e20ca65a431baf29a11b1b93cd3d5ed236360396a3fd5b1e\\XmlConvert.cs",
+              "ViewState": "AgIAACYBAAAAAAAAAAAlwCsBAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:03:46.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Convert.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\AppData\\Local\\SourceServer\\067f2a472db43038e5d310f402bad9cb62da4763d5566c0182d38cf9bc0d78a3\\src\\libraries\\System.Private.CoreLib\\src\\System\\Convert.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\067f2a472db43038e5d310f402bad9cb62da4763d5566c0182d38cf9bc0d78a3\\src\\libraries\\System.Private.CoreLib\\src\\System\\Convert.cs",
+              "ToolTip": "C:\\Users\\Cian\\AppData\\Local\\SourceServer\\067f2a472db43038e5d310f402bad9cb62da4763d5566c0182d38cf9bc0d78a3\\src\\libraries\\System.Private.CoreLib\\src\\System\\Convert.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\067f2a472db43038e5d310f402bad9cb62da4763d5566c0182d38cf9bc0d78a3\\src\\libraries\\System.Private.CoreLib\\src\\System\\Convert.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAlwNoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:33:50.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Number.Parsing.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\AppData\\Local\\SourceServer\\cc6a60ec468d593605f295a5d77853ed9a960c680a7a37d7265ed9914269fc24\\src\\libraries\\System.Private.CoreLib\\src\\System\\Number.Parsing.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\cc6a60ec468d593605f295a5d77853ed9a960c680a7a37d7265ed9914269fc24\\src\\libraries\\System.Private.CoreLib\\src\\System\\Number.Parsing.cs",
+              "ToolTip": "C:\\Users\\Cian\\AppData\\Local\\SourceServer\\cc6a60ec468d593605f295a5d77853ed9a960c680a7a37d7265ed9914269fc24\\src\\libraries\\System.Private.CoreLib\\src\\System\\Number.Parsing.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\cc6a60ec468d593605f295a5d77853ed9a960c680a7a37d7265ed9914269fc24\\src\\libraries\\System.Private.CoreLib\\src\\System\\Number.Parsing.cs",
+              "ViewState": "AgIAAFoFAAAAAAAAAAAlwG4FAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:35:22.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AbilityDataCollection.json",
+              "DocumentMoniker": "D:\\DnD\\Secret of the Sun Queen\\Pokerole Buddy 1.2.1\\Pokerole Buddy_Data\\StreamingAssets\\AbilityDataCollection.json",
+              "ToolTip": "D:\\DnD\\Secret of the Sun Queen\\Pokerole Buddy 1.2.1\\Pokerole Buddy_Data\\StreamingAssets\\AbilityDataCollection.json",
+              "ViewState": "AgIAAHAEAAAAAAAAAAAiwIQEAACSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-02T18:15:51.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ItemCollection.json",
+              "DocumentMoniker": "D:\\DnD\\Secret of the Sun Queen\\Pokerole Buddy 1.2.1\\Pokerole Buddy_Data\\StreamingAssets\\ItemCollection.json",
+              "ToolTip": "D:\\DnD\\Secret of the Sun Queen\\Pokerole Buddy 1.2.1\\Pokerole Buddy_Data\\StreamingAssets\\ItemCollection.json",
+              "ViewState": "AgIAAPkGAAAAAAAAAAAkwBEHAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-02T16:28:17.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "MoveDataCollection.json",
+              "DocumentMoniker": "D:\\DnD\\Secret of the Sun Queen\\Pokerole Buddy 1.2.1\\Pokerole Buddy_Data\\StreamingAssets\\MoveDataCollection.json",
+              "ToolTip": "D:\\DnD\\Secret of the Sun Queen\\Pokerole Buddy 1.2.1\\Pokerole Buddy_Data\\StreamingAssets\\MoveDataCollection.json",
+              "ViewState": "AgIAAI0BAAAAAAAAAAAiwKEBAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-02T15:31:33.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ThrowHelper.Serialization.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\AppData\\Local\\SourceServer\\9d20f890ec3dff18387e328f451edc235e27b08d38284c0e8fa2feefb0550efe\\src\\libraries\\System.Text.Json\\src\\System\\Text\\Json\\ThrowHelper.Serialization.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\9d20f890ec3dff18387e328f451edc235e27b08d38284c0e8fa2feefb0550efe\\src\\libraries\\System.Text.Json\\src\\System\\Text\\Json\\ThrowHelper.Serialization.cs",
+              "ToolTip": "C:\\Users\\Cian\\AppData\\Local\\SourceServer\\9d20f890ec3dff18387e328f451edc235e27b08d38284c0e8fa2feefb0550efe\\src\\libraries\\System.Text.Json\\src\\System\\Text\\Json\\ThrowHelper.Serialization.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\9d20f890ec3dff18387e328f451edc235e27b08d38284c0e8fa2feefb0550efe\\src\\libraries\\System.Text.Json\\src\\System\\Text\\Json\\ThrowHelper.Serialization.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAlwIAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:21:15.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ItemCollection.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\ItemCollection.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\ItemCollection.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\ItemCollection.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\ItemCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:03:31.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "AbilityCollection.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\AbilityCollection.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\AbilityCollection.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\AbilityCollection.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\AbilityCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:05:02.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "JsonConverterOfT.ReadCore.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\AppData\\Local\\SourceServer\\05cb7c9936d30c7ab757f9a3fdb4aafef97849bb4bcd644fdb0e2720570a8888\\src\\libraries\\System.Text.Json\\src\\System\\Text\\Json\\Serialization\\JsonConverterOfT.ReadCore.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\05cb7c9936d30c7ab757f9a3fdb4aafef97849bb4bcd644fdb0e2720570a8888\\src\\libraries\\System.Text.Json\\src\\System\\Text\\Json\\Serialization\\JsonConverterOfT.ReadCore.cs",
+              "ToolTip": "C:\\Users\\Cian\\AppData\\Local\\SourceServer\\05cb7c9936d30c7ab757f9a3fdb4aafef97849bb4bcd644fdb0e2720570a8888\\src\\libraries\\System.Text.Json\\src\\System\\Text\\Json\\Serialization\\JsonConverterOfT.ReadCore.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\05cb7c9936d30c7ab757f9a3fdb4aafef97849bb4bcd644fdb0e2720570a8888\\src\\libraries\\System.Text.Json\\src\\System\\Text\\Json\\Serialization\\JsonConverterOfT.ReadCore.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAlwFgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:21:20.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "DamageType.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\DamageType.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\DamageType.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\DamageType.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\DamageType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:12:19.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "MoveCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\MoveCategory.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\MoveCategory.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\MoveCategory.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\MoveCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:27:14.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "MoveCollection.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\MoveCollection.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\MoveCollection.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\MoveCollection.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\MoveCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:05:40.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AbilityService.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Services\\AbilityService.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Services\\AbilityService.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Services\\AbilityService.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Services\\AbilityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:55:30.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ObjectDefaultConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\7959305f6dbc2f6b65057bb592885c66b3764fe27232059be24145defd66db31\\ObjectDefaultConverter.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\7959305f6dbc2f6b65057bb592885c66b3764fe27232059be24145defd66db31\\ObjectDefaultConverter.cs",
+              "ToolTip": "C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\7959305f6dbc2f6b65057bb592885c66b3764fe27232059be24145defd66db31\\ObjectDefaultConverter.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\7959305f6dbc2f6b65057bb592885c66b3764fe27232059be24145defd66db31\\ObjectDefaultConverter.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAlwCwAAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:55:44.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ThrowHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\0637c6ad9c08d73b8d492b08d044dca14edcce15edf3422ec1e0a7a9eae3bd9f\\ThrowHelper.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0637c6ad9c08d73b8d492b08d044dca14edcce15edf3422ec1e0a7a9eae3bd9f\\ThrowHelper.cs",
+              "ToolTip": "C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\0637c6ad9c08d73b8d492b08d044dca14edcce15edf3422ec1e0a7a9eae3bd9f\\ThrowHelper.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0637c6ad9c08d73b8d492b08d044dca14edcce15edf3422ec1e0a7a9eae3bd9f\\ThrowHelper.cs",
+              "ViewState": "AgIAAN4CAAAAAAAAAAAAwPACAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:55:44.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "JsonConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\70c54d36987359e94c25c54b2dd41736b73cfed43545bcf4ecb70c500fc8e824\\JsonConverter.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\70c54d36987359e94c25c54b2dd41736b73cfed43545bcf4ecb70c500fc8e824\\JsonConverter.cs",
+              "ToolTip": "C:\\Users\\Cian\\AppData\\Local\\Temp\\.vsdbgsrc\\70c54d36987359e94c25c54b2dd41736b73cfed43545bcf4ecb70c500fc8e824\\JsonConverter.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\70c54d36987359e94c25c54b2dd41736b73cfed43545bcf4ecb70c500fc8e824\\JsonConverter.cs",
+              "ViewState": "AgIAADkBAAAAAAAAAAAlwE0BAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:56:15.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\AppShell.xaml",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\AppShell.xaml",
+              "RelativeToolTip": "PokeroleBuddyHelper\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-02T15:43:14.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\App.xaml.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\App.xaml.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:16:09.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\App.xaml",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\App.xaml",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\App.xaml",
+              "RelativeToolTip": "PokeroleBuddyHelper\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-02T15:43:11.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "MoveService.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Services\\MoveService.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Services\\MoveService.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Services\\MoveService.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Services\\MoveService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:55:57.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Services\\ItemService.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Services\\ItemService.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Services\\ItemService.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Services\\ItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:55:12.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "TargetType.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\TargetType.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\TargetType.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\TargetType.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\TargetType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:14:00.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Height.cs",
+              "DocumentMoniker": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\Height.cs",
+              "RelativeDocumentMoniker": "PokeroleBuddyHelper\\Models\\Height.cs",
+              "ToolTip": "C:\\Users\\Cian\\source\\repos\\PokeroleBuddyHelper\\PokeroleBuddyHelper\\Models\\Height.cs",
+              "RelativeToolTip": "PokeroleBuddyHelper\\Models\\Height.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:02:45.825Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeroleBuddyHelper.EditItemPage">
+    <StackLayout Padding="10">
+        <FlexLayout>
+            <Button Text="Save" Clicked="OnSaveClicked" />
+            <Button Text="Cancel" Clicked="OnCancelClicked"/>
+        </FlexLayout>
+        <Label Text="Edit Item" FontSize="Large" HorizontalOptions="Center" />
+        <Entry Text="{Binding Item.Name}" Placeholder="Name" />
+        <Entry Text="{Binding Item.ID}" Placeholder="ID" />
+        <Entry Text="{Binding Item.Description}" Placeholder="Description" />
+        <!-- Add more fields as needed -->
+    </StackLayout>
+</ContentPage>
