@@ -10,6 +10,12 @@
             <Button Text="Import Ability Data" Clicked="OnImportAbilitiesClicked"/>
             <Button Text="Export to json" Clicked="OnExportAbilitiesClicked"/>
         </FlexLayout>
+        <FlexLayout>
+            <Button Text="Delete all Abilities" Clicked="OnClearClicked"/>
+        </FlexLayout>
+        <FlexLayout>
+            <Button Text="Delete all Items" Clicked="OnClearClicked"/>
+        </FlexLayout>
         <ListView x:Name="AbilityListView" ItemSelected="OnAbilitySelected">
             <ListView.ItemTemplate>
                 <DataTemplate>

@@ -59,7 +59,7 @@ public partial class MovesPage : ContentPage
     {
         var jsonFileType = new FilePickerFileType(new Dictionary<DevicePlatform, IEnumerable<string>>
             {
-                { DevicePlatform.iOS, new[] { "public.json" } },
+                { DevicePlatform.MacCatalyst, new[] { "public.json" } },
                 { DevicePlatform.Android, new[] { "application/json" } },
                 { DevicePlatform.WinUI, new[] { ".json" } },
                 { DevicePlatform.Tizen, new[] { "application/json" } }

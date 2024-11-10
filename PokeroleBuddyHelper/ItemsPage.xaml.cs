@@ -58,7 +58,7 @@ public partial class ItemsPage : ContentPage
     {
         var jsonFileType = new FilePickerFileType(new Dictionary<DevicePlatform, IEnumerable<string>>
             {
-                { DevicePlatform.iOS, new[] { "public.json" } }, // or "json" if "public.json" doesn't work
+                { DevicePlatform.MacCatalyst, new[] { "public.json" } }, // or "json" if "public.json" doesn't work
                 { DevicePlatform.Android, new[] { "application/json" } },
                 { DevicePlatform.WinUI, new[] { ".json" } },
                 { DevicePlatform.Tizen, new[] { "application/json" } }
@@ -127,5 +127,13 @@ public partial class ItemsPage : ContentPage
             await DisplayAlert("Error", $"Failed to export Item data: {ex.Message}", "OK");
         }
 
+    }
+
+    public async void OnClearClicked(object sender, EventArgs e)
+    {
+        _itemList.Clear();
+        await _itemService.SaveItemsAsync(_itemList);
+        ItemListView.ItemsSource = null;
+        ItemListView.ItemsSource = _itemList;
     }
 }

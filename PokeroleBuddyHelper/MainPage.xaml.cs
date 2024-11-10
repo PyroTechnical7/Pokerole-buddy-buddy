@@ -5,29 +5,44 @@ using System.Threading.Tasks;
 using Microsoft.Maui.Controls;
 using System.Text.Json;
 using System.Collections.ObjectModel;
+using System.Windows.Input;
 
 namespace PokeroleBuddyHelper
 {
     public partial class MainPage : ContentPage
     {
         private readonly PokemonService _pokemonService = new();
-        private readonly ItemService _itemService = new();
-        private readonly MoveService _moveService = new();
-        private readonly AbilityService _abilityService = new();
 
         private List<Pokemon> _pokemonList = [];
         private ObservableCollection<Pokemon> _filteredPokemon = [];
-        private List<Item> _itemList = [];
-        private List<Move> _moveList = [];
-        private List<PokemonAbility> _abilityList = [];
+
+        public ICommand DeletePokemonCommand { get; }
 
         public MainPage()
         {
             InitializeComponent();
             LoadPokemonData();
+            DeletePokemonCommand = new Command<Pokemon>(OnDeletePokemon);
         }
 
-        private async void LoadPokemonData()
+        private async void OnDeletePokemon(Pokemon pokemon)
+        {
+            if (pokemon != null && _pokemonList.Contains(pokemon))
+            {
+                _pokemonList.Remove(pokemon);
+            }
+            await SavePokemonData();
+        }
+
+        private async Task SavePokemonData()
+        {
+            _pokemonService.SavePokemonAsync(_pokemonList);
+            _filteredPokemon = new ObservableCollection<Pokemon>(_pokemonList);
+            PokemonListView.ItemsSource = _filteredPokemon;
+
+        }
+
+        private async Task LoadPokemonData()
         {
             _pokemonList = await _pokemonService.LoadPokemonAsync();
             _filteredPokemon = new ObservableCollection<Pokemon>(_pokemonList);

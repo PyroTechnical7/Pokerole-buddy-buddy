@@ -59,7 +59,7 @@ public partial class AbilitiesPage : ContentPage
     {
         var jsonFileType = new FilePickerFileType(new Dictionary<DevicePlatform, IEnumerable<string>>
             {
-                { DevicePlatform.iOS, new[] { "public.json" } },
+                { DevicePlatform.MacCatalyst, new[] { "public.json" } },
                 { DevicePlatform.Android, new[] { "application/json" } },
                 { DevicePlatform.WinUI, new[] { ".json" } },
                 { DevicePlatform.Tizen, new[] { "application/json" } }
@@ -128,5 +128,13 @@ public partial class AbilitiesPage : ContentPage
             await DisplayAlert("Error", $"Failed to export Ability data: {ex.Message}", "OK");
         }
 
+    }
+
+    public async void OnClearClicked(object sender, EventArgs e)
+    {
+        _abilityList.Clear();
+        await _abilityService.SaveAbilitiesAsync(_abilityList);
+        AbilityListView.ItemsSource = null;
+        AbilityListView.ItemsSource = _abilityList;
     }
 }

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:PokeroleBuddyHelper"
             x:Class="PokeroleBuddyHelper.MainPage"
             Title="Pokémon Page">
 
@@ -11,7 +12,7 @@
             <Button Text="Import Pokémon Data" Clicked="OnImportPokemonClicked"/>
             <Button Text="Add Pokémon Data and Export" Clicked="OnImportPokemonWithExportClicked"/>
             <Button Text="Export to json" Clicked="OnExportPokemonClicked"/>
-            <Button Text="DELETE ALL POKEMON, NO UNDO" Clicked="OnClearClicked"/>
+            <Button Text="Delete all Pokemon" Clicked="OnClearClicked"/>
         </FlexLayout>
         <FlexLayout>
             <Button Text="Order Alphabetically" Clicked="OnOrderAlphabetically"/>
@@ -21,9 +22,17 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Padding="6">
-                            <Label Text="{Binding Name}" FontSize="20" FontAttributes="Bold" VerticalOptions="Center" />
-                            <Label Text="{Binding Number}" FontSize="16" VerticalOptions="Center" />
+                        <StackLayout Padding="6" Orientation="Horizontal">
+                            <StackLayout VerticalOptions="Center" HorizontalOptions="StartAndExpand">
+                                <Label Text="{Binding Name}" FontSize="20" FontAttributes="Bold" VerticalOptions="Center" />
+                                <Label Text="{Binding Number}" FontSize="16" VerticalOptions="Center" />
+                            </StackLayout>
+                            <Button Text="Delete" 
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:MainPage}}, Path=DeletePokemonCommand}" 
+                                CommandParameter="{Binding .}" 
+                                BackgroundColor="Red" 
+                                TextColor="White" 
+                                VerticalOptions="Center" />
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
