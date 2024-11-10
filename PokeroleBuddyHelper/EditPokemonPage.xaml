@@ -229,7 +229,7 @@
                 </FlexLayout>
             </Grid>
 
-            <FlexLayout Direction="Column" BackgroundColor="Lavender">
+            <FlexLayout Direction="Column">
                 <Label Text="Evolutions" FontSize="Medium" HorizontalOptions="Center" />
                 <Button Text="Add Evolution" Clicked="OnAddEvolutionClicked" />
                 <CollectionView ItemsSource="{Binding Pokemon.Evolutions}" HorizontalOptions="StartAndExpand">
