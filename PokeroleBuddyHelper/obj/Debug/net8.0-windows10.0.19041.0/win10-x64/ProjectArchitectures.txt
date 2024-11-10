@@ -1,1 +1,0 @@
-C:\Users\Cian\source\repos\PokeroleBuddyHelper\PokeroleBuddyHelper\PokeroleBuddyHelper.csproj;x64
