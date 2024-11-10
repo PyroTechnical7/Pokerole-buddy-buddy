@@ -11,6 +11,7 @@
             <Button Text="Import Pokémon Data" Clicked="OnImportPokemonClicked"/>
             <Button Text="Add Pokémon Data and Export" Clicked="OnImportPokemonWithExportClicked"/>
             <Button Text="Export to json" Clicked="OnExportPokemonClicked"/>
+            <Button Text="DELETE ALL POKEMON, NO UNDO" Clicked="OnClearClicked"/>
         </FlexLayout>
         <FlexLayout>
             <Button Text="Order Alphabetically" Clicked="OnOrderAlphabetically"/>

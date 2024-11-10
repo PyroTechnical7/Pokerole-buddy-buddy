@@ -220,5 +220,13 @@ namespace PokeroleBuddyHelper
             PokemonListView.ItemsSource = _pokemonList;
         }
 
+        public async void OnClearClicked(object sender, EventArgs e)
+        {
+            _pokemonList.Clear();
+            await _pokemonService.SavePokemonAsync(_pokemonList);
+            PokemonListView.ItemsSource = null;
+            PokemonListView.ItemsSource = _pokemonList;
+        }
+
     }
 }
