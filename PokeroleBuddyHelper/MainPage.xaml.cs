@@ -63,6 +63,7 @@ namespace PokeroleBuddyHelper
             }
 
             PokemonListView.SelectedItem = null;
+            await _pokemonService.SavePokemonAsync(_pokemonList);
         }
 
         private async void OnImportPokemonClicked(object sender, EventArgs e)
