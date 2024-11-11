@@ -2,15 +2,88 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PokeroleBuddyHelper.EditItemPage">
-    <StackLayout Padding="10">
-        <FlexLayout>
-            <Button Text="Save" Clicked="OnSaveClicked" />
-            <Button Text="Cancel" Clicked="OnCancelClicked"/>
-        </FlexLayout>
-        <Label Text="Edit Item" FontSize="Large" HorizontalOptions="Center" />
-        <Entry Text="{Binding Item.Name}" Placeholder="Name" />
-        <Entry Text="{Binding Item.ID}" Placeholder="ID" />
-        <Entry Text="{Binding Item.Description}" Placeholder="Description" />
-        <!-- Add more fields as needed -->
-    </StackLayout>
+    <ScrollView>
+        <StackLayout Padding="10">
+            <FlexLayout>
+                <Button Text="Save" Clicked="OnSaveClicked" />
+                <Button Text="Cancel" Clicked="OnCancelClicked"/>
+            </FlexLayout>
+
+            <Label Text="Edit Item" FontSize="Large" HorizontalOptions="Center" />
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Name: "/>
+                <Entry Text="{Binding Item.Name}" Placeholder="Name" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="ID: "/>
+                <Entry Text="{Binding Item.ID}" Placeholder="ID" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Source: "/>
+                <Entry Text="{Binding Item.Source}" Placeholder="Source" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Mystery Dungeon?: "/>
+                <Switch IsToggled="{Binding Item.PMD}"/>
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Pocket: "/>
+                <Entry Text="{Binding Item.Pocket}" Placeholder="Pocket" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Category: "/>
+                <Entry Text="{Binding Item.Category}" Placeholder="Category" />
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Description: "/>
+                <Entry Text="{Binding Item.Description}" Placeholder="Description"/>
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="One Use?: "/>
+                <Switch IsToggled="{Binding Item.OneUse}"/>
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Trainer Price: "/>
+                <Entry Text="{Binding Item.TrainerPrice}" Placeholder="Trainer Price"/>
+            </FlexLayout>
+
+            <FlexLayout>
+                <Button Clicked="OnSpriteAutoFillClicked" Text="Autofill with ID" WidthRequest="150" />
+            </FlexLayout>
+            <FlexLayout AlignItems="Center" Margin="0,10">
+
+                <Label Text="Item Sprite Path: "/>
+                <Entry Text="{Binding Item.ItemSpritePath}" Placeholder="Graphics/Items/..."/>
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Health Restored: "/>
+                <Entry Text="{Binding Item.HealthRestored}" Placeholder="Health Restored"/>
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Cures: "/>
+                <Entry Text="{Binding Item.Cures}" Placeholder="Cures"/>
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="Value: "/>
+                <Entry Text="{Binding Item.Value}" Placeholder="Value"/>
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" Margin="0,10">
+                <Label Text="For Types: "/>
+                <Entry Text="{Binding Item.ForTypes}" Placeholder="For Types"/>
+            </FlexLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

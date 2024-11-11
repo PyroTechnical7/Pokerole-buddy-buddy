@@ -24,6 +24,12 @@ public partial class MovesPage : ContentPage
         MoveListView.ItemsSource = _moveList;
     }
 
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+        await _moveService.SaveMovesAsync(_moveList);
+    }
+
     private void OnSearchBarTextChanged(object sender, TextChangedEventArgs e)
     {
         var searchText = e.NewTextValue.ToLower();

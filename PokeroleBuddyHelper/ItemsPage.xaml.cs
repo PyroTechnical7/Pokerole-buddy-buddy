@@ -23,6 +23,12 @@ public partial class ItemsPage : ContentPage
         ItemListView.ItemsSource = _filteredItems;
     }
 
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+        await _itemService.SaveItemsAsync(_itemList);
+    }
+
     private void OnSearchBarTextChanged(object sender, TextChangedEventArgs e)
     {
         var searchText = e.NewTextValue.ToLower();
@@ -52,6 +58,7 @@ public partial class ItemsPage : ContentPage
         }
 
         ItemListView.SelectedItem = null;
+        await _itemService.SaveItemsAsync(_itemList);
     }
 
     private async void OnImportItemsClicked(object sender, EventArgs e)

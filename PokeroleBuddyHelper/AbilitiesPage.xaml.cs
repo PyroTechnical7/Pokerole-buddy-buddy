@@ -24,6 +24,12 @@ public partial class AbilitiesPage : ContentPage
         AbilityListView.ItemsSource = _filteredAbilityList;
     }
 
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+        await _abilityService.SaveAbilitiesAsync(_abilityList);
+    }
+
     private void OnSearchBarTextChanged(object sender, TextChangedEventArgs e)
     {
         var searchText = e.NewTextValue.ToLower();

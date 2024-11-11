@@ -166,6 +166,12 @@ namespace PokeroleBuddyHelper
             }
 
         }
+        
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            await SavePokemonData();
+        }
 
         private async void OnImportPokemonWithExportClicked(object sender, EventArgs e)
         {
