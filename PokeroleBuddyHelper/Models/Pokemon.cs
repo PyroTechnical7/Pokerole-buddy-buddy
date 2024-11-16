@@ -118,7 +118,7 @@ public class Pokemon : INotifyPropertyChanged, ICloneable
 
     public PokemonAbility? Ability1
     {
-        get => _ability1;
+        get => _ability1 != null ? _ability1 : new PokemonAbility();
         set
         {
             if (_ability1 != value)
@@ -130,7 +130,7 @@ public class Pokemon : INotifyPropertyChanged, ICloneable
     }
     public PokemonAbility? Ability2
     {
-        get => _ability2;
+        get => _ability2 != null ? _ability2: new PokemonAbility();
         set
         {
             if (_ability2 != value)
@@ -142,7 +142,7 @@ public class Pokemon : INotifyPropertyChanged, ICloneable
     }
     public PokemonAbility? HiddenAbility
     {
-        get => _hiddenAbility;
+        get => _hiddenAbility != null ? _hiddenAbility : new PokemonAbility{IsHidden = true };
         set
         {
             if (_hiddenAbility != value)
@@ -298,7 +298,7 @@ public class Pokemon : INotifyPropertyChanged, ICloneable
     }
     public Height? Height
     {
-        get => _height;
+        get => _height != null ? _height : new Height();
         set
         {
             if (_height != value)
@@ -310,7 +310,7 @@ public class Pokemon : INotifyPropertyChanged, ICloneable
     }
     public Weight? Weight
     {
-        get => _weight;
+        get => _weight != null ? _weight : new Weight();
         set
         {
             if (_weight != value)
@@ -344,7 +344,7 @@ public class Pokemon : INotifyPropertyChanged, ICloneable
             }
         }
     }
-    public ObservableCollection<PokemonMove> Moves
+    public ObservableCollection<PokemonMove>? Moves
     {
         get => _moves ??= new ObservableCollection<PokemonMove>();
         set
