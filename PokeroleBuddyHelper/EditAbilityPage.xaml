@@ -4,9 +4,22 @@
              x:Class="PokeroleBuddyHelper.EditAbilityPage">
     <StackLayout Padding="10">
         <Label Text="Edit Ability" FontSize="Large" HorizontalOptions="Center" />
-        <Entry Text="{Binding Name}" Placeholder="Name" />
-        <Switch IsToggled="{Binding IsHidden}" />
-        <!-- Add more fields as needed -->
+        <FlexLayout AlignItems="Center" Margin="0,10">
+            <Label Text="Name: "/>
+            <Entry Text="{Binding AbilityName}" Placeholder="Name" />
+        </FlexLayout>
+        <FlexLayout AlignItems="Center" Margin="0,10">
+            <Label Text="Effect: "/>
+            <Entry Text="{Binding Effect}" Placeholder="Effect" />
+        </FlexLayout>
+        <FlexLayout AlignItems="Center" Margin="0,10">
+            <Label Text="Description: "/>
+            <Entry Text="{Binding description}" Placeholder="Name" />
+        </FlexLayout>
+        <FlexLayout AlignItems="Center" Margin="0,10">
+            <Label Text="ID: "/>
+            <Entry Text="{Binding Id}" Placeholder="ID" />
+        </FlexLayout >
         <Button Text="Save" Clicked="OnSaveClicked" />
     </StackLayout>
 </ContentPage>

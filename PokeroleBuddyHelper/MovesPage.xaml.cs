@@ -2,6 +2,7 @@ using PokeroleBuddyHelper.Models;
 using PokeroleBuddyHelper.Services;
 using System.Collections.ObjectModel;
 using System.Text.Json;
+using System.Windows.Input;
 
 namespace PokeroleBuddyHelper;
 
@@ -11,11 +12,30 @@ public partial class MovesPage : ContentPage
     private List<Move> _moveList = new();
     private ObservableCollection<Move> _filteredMoves = new();
 
+    public ICommand DeletePokemonCommand { get; }
+
     public MovesPage()
 	{
 		InitializeComponent();
         LoadMoveData();
-	}
+        DeletePokemonCommand = new Command<Move>(OnDeleteMove);
+    }
+
+    private async void OnDeleteMove(Move move)
+    {
+        if (move != null && _moveList.Contains(move))
+        {
+            _moveList.Remove(move);
+        }
+        await SaveMoveData();
+    }
+
+    private async Task SaveMoveData()
+    {
+        await _moveService.SaveMovesAsync(_moveList);
+        _filteredMoves = new ObservableCollection<Move>(_moveList);
+        MoveListView.ItemsSource = _filteredMoves;
+    }
 
     private async void LoadMoveData()
     {

@@ -2,6 +2,7 @@ using PokeroleBuddyHelper.Models;
 using PokeroleBuddyHelper.Services;
 using System.Collections.ObjectModel;
 using System.Text.Json;
+using System.Windows.Input;
 
 namespace PokeroleBuddyHelper;
 
@@ -10,10 +11,28 @@ public partial class ItemsPage : ContentPage
     private List<Item> _itemList = new List<Item>();
     private ObservableCollection<Item> _filteredItems = new();
     private readonly ItemService _itemService = new ItemService();
+    public ICommand DeleteItemCommand { get; }
     public ItemsPage()
 	{
 		InitializeComponent();
         LoadItemData();
+        DeleteItemCommand = new Command<Item>(OnDeleteItem);
+    }
+
+    private async void OnDeleteItem(Item item)
+    {
+        if (item != null && _itemList.Contains(item))
+        {
+            _itemList.Remove(item);
+        }
+        await SaveItemData();
+    }
+    private async Task SaveItemData()
+    {
+        _itemService.SaveItemsAsync(_itemList);
+        _filteredItems = new ObservableCollection<Item>(_itemList);
+        ItemListView.ItemsSource = _filteredItems;
+
     }
 
     private async void LoadItemData()

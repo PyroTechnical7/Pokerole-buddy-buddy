@@ -2,6 +2,7 @@ using PokeroleBuddyHelper.Models;
 using PokeroleBuddyHelper.Services;
 using System.Collections.ObjectModel;
 using System.Text.Json;
+using System.Windows.Input;
 
 namespace PokeroleBuddyHelper;
 
@@ -10,10 +11,31 @@ public partial class AbilitiesPage : ContentPage
     private List<Ability> _abilityList = new List<Ability>();
     private ObservableCollection<Ability> _filteredAbilityList = new();
     private readonly AbilityService _abilityService = new AbilityService();
+
+    public ICommand DeleteAbilityCommand { get; }
+
     public AbilitiesPage()
 	{
 		InitializeComponent();
         LoadAbilityData();
+        DeleteAbilityCommand = new Command<Ability>(OnDeleteAbility);
+    }
+
+    private async void OnDeleteAbility(Ability ability)
+    {
+        if (ability != null && _abilityList.Contains(ability))
+        {
+            _abilityList.Remove(ability);
+        }
+        await SaveAbilityData();
+    }
+
+    private async Task SaveAbilityData()
+    {
+        await _abilityService.SaveAbilitiesAsync(_abilityList);
+        _filteredAbilityList = new ObservableCollection<Ability>(_abilityList);
+        AbilityListView.ItemsSource = _filteredAbilityList;
+
     }
 
 
