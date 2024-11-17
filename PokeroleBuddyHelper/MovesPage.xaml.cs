@@ -12,13 +12,13 @@ public partial class MovesPage : ContentPage
     private List<Move> _moveList = new();
     private ObservableCollection<Move> _filteredMoves = new();
 
-    public ICommand DeletePokemonCommand { get; }
+    public ICommand DeleteMoveCommand { get; }
 
     public MovesPage()
 	{
 		InitializeComponent();
         LoadMoveData();
-        DeletePokemonCommand = new Command<Move>(OnDeleteMove);
+        DeleteMoveCommand = new Command<Move>(OnDeleteMove);
     }
 
     private async void OnDeleteMove(Move move)
