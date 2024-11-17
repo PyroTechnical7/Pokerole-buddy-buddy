@@ -213,6 +213,7 @@ namespace PokeroleBuddyHelper
             }
 
             exportCollection.PokemonCollection.AddRange(originalCollection);
+            exportCollection.PokemonCollection = exportCollection.PokemonCollection.OrderBy(p => p.Name).ToList();
 
             try
             {
