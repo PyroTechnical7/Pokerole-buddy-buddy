@@ -246,4 +246,11 @@ public partial class AbilitiesPage : ContentPage
         Title = "Result was null";
         return null;
     }
+
+    public async void OnOrderAlphabetically(object sender, EventArgs e)
+    {
+        _abilityList = _abilityList.OrderBy(p => p.AbilityName).ToList();
+        AbilityListView.ItemsSource = null;
+        AbilityListView.ItemsSource = _abilityList;
+    }
 }

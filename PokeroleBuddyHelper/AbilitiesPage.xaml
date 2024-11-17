@@ -14,7 +14,7 @@
             <Button Text="Delete all Abilities" Clicked="OnClearClicked"/>
         </FlexLayout>
         <FlexLayout>
-            
+            <Button Text="Sort Alphabetically" Clicked="OnOrderAlphabetically"/>
         </FlexLayout>
         <ListView x:Name="AbilityListView" ItemSelected="OnAbilitySelected">
             <ListView.ItemTemplate>
