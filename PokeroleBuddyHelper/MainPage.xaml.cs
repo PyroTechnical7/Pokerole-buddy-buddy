@@ -66,8 +66,11 @@ namespace PokeroleBuddyHelper
             };
             _pokemonList.Add(newPokemon);
             await _pokemonService.SavePokemonAsync(_pokemonList);
+
             PokemonListView.ItemsSource = null;
             PokemonListView.ItemsSource = _pokemonList;
+
+            await Navigation.PushAsync(new EditPokemonPage(newPokemon));
         }
 
         private async void OnPokemonSelected(object sender, SelectedItemChangedEventArgs e)

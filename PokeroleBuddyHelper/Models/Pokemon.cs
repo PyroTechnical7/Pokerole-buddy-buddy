@@ -477,6 +477,46 @@ public class Pokemon : INotifyPropertyChanged, ICloneable
         }
     }
 
+    public Pokemon()
+    {
+        _minStrength = 0;
+        _maxStrength = 0;
+        _minDexterity = 0;
+        _maxDexterity = 0;
+        _minVitality = 0;
+        _maxVitality = 0;
+        _minSpecial = 0;
+        _maxSpecial = 0;
+        _minInsight = 0;
+        _maxInsight = 0;
+        _moves = new ObservableCollection<PokemonMove>();
+        _number = 0;
+        _dexID = string.Empty;
+        _name = string.Empty;
+        _type1 = PokemonType.Normal;
+        _type2 = PokemonType.None;
+        _baseHP = 0;
+        _ability1 = new PokemonAbility();
+        _ability2 = new PokemonAbility();
+        _hiddenAbility = new PokemonAbility { IsHidden = true };
+        _eventAbilities = string.Empty;
+        _recommendedRank = TrainerRank.Starter;
+        _genderType = Models.GenderType.Regular;
+        _legendary = false;
+        _goodStarter = false;
+        __id = string.Empty;
+        _dexCategory = string.Empty;
+        _dexDescription = string.Empty;
+        _boxSprite = string.Empty;
+        _boxSpriteShiny = string.Empty;
+        _boxSpriteFemale = string.Empty;
+        _boxSpriteFemaleShiny = string.Empty;
+        _height = new Height();
+        _weight = new Weight();
+        _evolvesFrom = string.Empty;
+        _evolutions = new ObservableCollection<Evolution>();
+    }
+
     public event PropertyChangedEventHandler PropertyChanged;
 
     protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
