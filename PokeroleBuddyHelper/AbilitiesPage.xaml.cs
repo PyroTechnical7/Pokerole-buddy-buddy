@@ -188,7 +188,7 @@ public partial class AbilitiesPage : ContentPage
         {
             var json = JsonSerializer.Serialize(exportCollection, new JsonSerializerOptions { WriteIndented = true });
 
-            var fileName = $"ItemsExport_{DateTime.Now:yyyyMMddHHmmss}.json";
+            var fileName = $"AbilitiesExport_{DateTime.Now:yyyyMMddHHmmss}.json";
             var filePath = Path.Combine(FileSystem.Current.AppDataDirectory, fileName);
 
             await File.WriteAllTextAsync(filePath, json);
