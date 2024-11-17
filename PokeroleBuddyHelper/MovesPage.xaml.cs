@@ -21,6 +21,7 @@ public partial class MovesPage : ContentPage
         DeleteMoveCommand = new Command<Move>(OnDeleteMove);
     }
 
+
     private async void OnDeleteMove(Move move)
     {
         if (move != null && _moveList.Contains(move))
@@ -55,6 +56,14 @@ public partial class MovesPage : ContentPage
         var searchText = e.NewTextValue.ToLower();
         _filteredMoves = new(_moveList.Where(p => p.Name.Contains(searchText, StringComparison.CurrentCultureIgnoreCase)).ToList());
         MoveListView.ItemsSource = _filteredMoves;
+    }
+
+    private async void OnClearClicked(object sender, EventArgs e)
+    {
+        _moveList.Clear();
+        await _moveService.SaveMovesAsync(_moveList);
+        MoveListView.ItemsSource = null;
+        MoveListView.ItemsSource = _moveList;
     }
 
     private async void OnAddMoveClicked(object sender, EventArgs e)

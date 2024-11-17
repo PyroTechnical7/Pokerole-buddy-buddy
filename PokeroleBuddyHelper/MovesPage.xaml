@@ -9,6 +9,7 @@
         <FlexLayout>
             <Button Text="Import Move Data" Clicked="OnImportMovesClicked"/>
             <Button Text="Export to json" Clicked="OnExportMovesClicked"/>
+            <Button Text="Delete all Moves" Clicked="OnClearClicked"/>
         </FlexLayout>
         <ListView x:Name="MoveListView" ItemSelected="OnMoveSelected">
             <ListView.ItemTemplate>
