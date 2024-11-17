@@ -334,7 +334,7 @@ public class Pokemon : INotifyPropertyChanged, ICloneable
     }
     public ObservableCollection<Evolution>? Evolutions
     {
-        get => _evolutions;
+        get => _evolutions != null? _evolutions : new ObservableCollection<Evolution>();
         set
         {
             if (_evolutions != value)
