@@ -11,6 +11,10 @@ namespace PokeroleBuddyHelper
         private readonly string _spriteString = "Graphics/PokemonSprites/regular/";
         private readonly string _shinySpriteString = "Graphics/PokemonSprites/shiny/";
 
+        private readonly DataService _dataService = new();
+
+        private ObservableCollection<string> pokemonMoveNames;
+
         private Pokemon _pokemon;
         private readonly Pokemon unedittedPokemon;
         private bool _autoConvertWeightEnabled  { get; set; }
@@ -58,6 +62,8 @@ namespace PokeroleBuddyHelper
             set { _pokemon = value; OnPropertyChanged(nameof(Pokemon)); }
         }
 
+        public ObservableCollection<string> PokemonMoveNames { get => pokemonMoveNames; set => pokemonMoveNames = value; }
+
         public EditPokemonPage(Pokemon pokemon)
         {
             _autoConvertHeightEnabled = false;
@@ -73,6 +79,7 @@ namespace PokeroleBuddyHelper
             DeleteMoveCommand = new Command<PokemonMove>(OnDeleteMove);
             DeleteEvolutionCommand = new Command<Evolution>(OnRemoveEvolution);
             BindingContext = this;
+            LoadPokemonMoveNamesAsync();
             InitializeComponent();
 
         }
@@ -224,6 +231,11 @@ namespace PokeroleBuddyHelper
             Pokemon.BoxSpriteFemale = _spriteString + "female/" + Pokemon._id + ".png";
             Pokemon.BoxSpriteShiny = _shinySpriteString + Pokemon._id + ".png";
             Pokemon.BoxSpriteFemaleShiny = _shinySpriteString + "female/" + Pokemon._id + ".png";
+        }
+        public async void LoadPokemonMoveNamesAsync()
+        {
+            var moves = await _dataService.PokemonMoves();
+            PokemonMoveNames = new ObservableCollection<string>(moves.Select(move => move.Name));
         }
     }
 }
