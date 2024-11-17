@@ -10,8 +10,8 @@
         
         <FlexLayout>
             <Button Text="Import Pokémon Data" Clicked="OnImportPokemonClicked"/>
-            <Button Text="Add Pokémon Data and Export" Clicked="OnImportPokemonWithExportClicked"/>
             <Button Text="Export to json" Clicked="OnExportPokemonClicked"/>
+            <Button Text="Add Pokémon Data and Export" Clicked="OnImportPokemonWithExportClicked"/>
             <Button Text="Delete all Pokemon" Clicked="OnClearClicked"/>
         </FlexLayout>
         <FlexLayout>

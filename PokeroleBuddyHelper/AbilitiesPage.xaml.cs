@@ -161,4 +161,87 @@ public partial class AbilitiesPage : ContentPage
         AbilityListView.ItemsSource = null;
         AbilityListView.ItemsSource = _abilityList;
     }
+    private async void ImportWithExportClicked(object Sender, EventArgs e)
+    {
+        var exportCollection = new AbilityCollection
+        {
+            Abilities = _abilityList
+        };
+
+        var jsonFileType = new FilePickerFileType(new Dictionary<DevicePlatform, IEnumerable<string>>
+            {
+                { DevicePlatform.MacCatalyst, new[] { "public.json" } },
+                { DevicePlatform.Android, new[] { "application/json" } },
+                { DevicePlatform.WinUI, new[] { ".json" } },
+                { DevicePlatform.Tizen, new[] { "application/json" } }
+            });
+
+        AbilityCollection originalCollection = await PromptForFile(jsonFileType);
+
+        if (originalCollection == null) return;
+
+        exportCollection.Abilities.AddRange(originalCollection.Abilities);
+
+        try
+        {
+            var json = JsonSerializer.Serialize(exportCollection, new JsonSerializerOptions { WriteIndented = true });
+
+            var fileName = $"ItemsExport_{DateTime.Now:yyyyMMddHHmmss}.json";
+            var filePath = Path.Combine(FileSystem.Current.AppDataDirectory, fileName);
+
+            await File.WriteAllTextAsync(filePath, json);
+
+            await DisplayAlert("Success", $"Ability data exported to {filePath}", "OK");
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Error", $"Failed to export Ability data: {ex.Message}", "OK");
+        }
+
+    }
+
+    private async Task<AbilityCollection> PromptForFile(FilePickerFileType jsonFileType)
+    {
+        var result = await FilePicker.PickAsync();
+
+        if (result != null)
+        {
+            Title = $"File Name: {result.FileName}";
+            try
+            {
+                using var stream = await result.OpenReadAsync();
+                using var reader = new StreamReader(stream);
+                var json = await reader.ReadToEndAsync();
+                var importedAbilityCollection = JsonSerializer.Deserialize<AbilityCollection>(json);
+
+                // Debugging: Check if the deserialization was successful
+                if (importedAbilityCollection == null)
+                {
+                    System.Diagnostics.Debug.WriteLine("Deserialization failed: importedAbilityCollection is null");
+                    Title = "importedItemCollection is null";
+                    return null;
+                }
+                else if (importedAbilityCollection.Abilities == null)
+                {
+                    Title = "ItemCollection is null";
+                    System.Diagnostics.Debug.WriteLine("Deserialization failed: AbilityCollection is null");
+                }
+                else return importedAbilityCollection;
+            }
+            catch (JsonException ex)
+            {
+                // Handle JSON deserialization error
+                await DisplayAlert("Error", $"Failed to import Ability data: {ex.Message}", "OK");
+                return null;
+            }
+            catch (Exception ex)
+            {
+                // Handle other potential errors
+                await DisplayAlert("Error", $"An unexpected error occurred: {ex.Message}", "OK");
+                return null;
+            }
+        }
+        Title = "Result was null";
+        return null;
+    }
 }

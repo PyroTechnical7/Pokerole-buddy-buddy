@@ -5,10 +5,11 @@
              xmlns:local="clr-namespace:PokeroleBuddyHelper"
              Title="Moves Page">
     <StackLayout Padding="10">
-        <SearchBar x:Name="MoveSearchBar" Placeholder="Search moves" TextChanged="OnSearchBarTextChanged"/>
+        <SearchBar x:Name="MoveSearchBar" Placeholder="Search Moves" TextChanged="OnSearchBarTextChanged"/>
         <FlexLayout>
             <Button Text="Import Move Data" Clicked="OnImportMovesClicked"/>
             <Button Text="Export to json" Clicked="OnExportMovesClicked"/>
+            <Button Text="Add Move Data and Export" Clicked="ImportWithExportClicked"/>
             <Button Text="Delete all Moves" Clicked="OnClearClicked"/>
         </FlexLayout>
         <ListView x:Name="MoveListView" ItemSelected="OnMoveSelected">
