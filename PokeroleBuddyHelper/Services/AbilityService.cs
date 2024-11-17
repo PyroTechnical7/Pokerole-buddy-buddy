@@ -28,10 +28,5 @@ namespace PokeroleBuddyHelper.Services
             var json = JsonSerializer.Serialize(abilityList, _jsonSerializerOptions);
             await File.WriteAllTextAsync(_filePath, json);
         }
-
-        public bool IsAbilitiesEmpty()
-        {
-            return !File.Exists(_filePath);
-        }
     }
 }

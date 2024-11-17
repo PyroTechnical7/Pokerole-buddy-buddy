@@ -27,24 +27,5 @@ namespace PokeroleBuddyHelper.Services
             var json = JsonSerializer.Serialize(moveList, new JsonSerializerOptions { WriteIndented = true });
             await File.WriteAllTextAsync(_filePath, json);
         }
-
-        public bool IsMovesEmpty()
-        {
-            return !File.Exists(_filePath);
-        }
-
-        internal async Task<List<PokemonMove>> LoadPokemonMovesAsync()
-        {
-            List<PokemonMove> pokemonMoves = new();
-
-            List<Move> moves = await LoadMovesAsync();
-
-            foreach(Move move in moves)
-            {
-                pokemonMoves.Add(new PokemonMove { Name = move.Name });
-            }
-
-            return pokemonMoves;
-        }
     }
 }

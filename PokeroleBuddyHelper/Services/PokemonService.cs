@@ -27,10 +27,5 @@ namespace PokeroleBuddyHelper.Services
             var json = JsonSerializer.Serialize(pokemonList, new JsonSerializerOptions { WriteIndented = true });
             await File.WriteAllTextAsync(_filePath, json);
         }
-
-        public bool IsPokemonEmpty()
-        {
-            return !File.Exists(_filePath);
-        }
     }
 }

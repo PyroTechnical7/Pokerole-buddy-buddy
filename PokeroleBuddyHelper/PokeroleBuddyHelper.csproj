@@ -84,9 +84,6 @@
 	  <MauiXaml Update="AbilitiesPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Controls\SearchablePicker.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="EditAbilityPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
