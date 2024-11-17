@@ -2,6 +2,6 @@
 
 public class PokemonAbility
 {
-    public bool IsHidden { get; set; }
-    public string? Name { get; set; }
+    public bool IsHidden { get; set; } = false;
+    public string? Name { get; set; } = string.Empty;
 }

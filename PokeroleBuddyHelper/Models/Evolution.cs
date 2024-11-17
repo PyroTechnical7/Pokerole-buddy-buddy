@@ -8,9 +8,9 @@ namespace PokeroleBuddyHelper.Models
 {
     public class Evolution
     {
-        public string? To { get; set; }
-        public string? Kind { get; set; }
-        public string? Item { get; set; }
+        public string? To { get; set; } = string.Empty;
+        public string? Kind { get; set; } = string.Empty;
+        public string? Item { get; set; } = string.Empty;
         public int Speed { get; set; }
     }
 }

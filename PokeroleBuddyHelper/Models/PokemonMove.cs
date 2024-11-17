@@ -5,8 +5,8 @@ using System.Runtime.CompilerServices;
 
 public class PokemonMove : INotifyPropertyChanged
 {
-    private string _name;
-    private TrainerRank _learnedRank;
+    private string _name = string.Empty;
+    private TrainerRank _learnedRank = TrainerRank.Starter;
     private int _learnedRankIndex;
 
     public string Name

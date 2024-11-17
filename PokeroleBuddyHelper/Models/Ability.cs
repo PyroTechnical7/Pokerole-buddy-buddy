@@ -10,10 +10,10 @@ namespace PokeroleBuddyHelper.Models
 {
     public class Ability : ICloneable
     {
-        private string? _abilityName;
-        private string? _effect;
-        private string? _description;
-        private string? _id;
+        private string? _abilityName = string.Empty;
+        private string? _effect = string.Empty;
+        private string? _description = string.Empty;
+        private string? _id = string.Empty;
 
         [System.Text.Json.Serialization.JsonPropertyName("abilityName")]
         public string? AbilityName {

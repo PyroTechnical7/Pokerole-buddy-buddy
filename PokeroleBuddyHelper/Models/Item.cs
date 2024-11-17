@@ -10,22 +10,22 @@ namespace PokeroleBuddyHelper.Models
 {
     public class Item: ICloneable
     {
-        private string? _name;
-        private string? _id;
-        private string? _source;
-        private bool _pmd;
-        private string? _pocket;
-        private string? _category;
-        private string? _description;
-        private bool _oneUse;
+        private string? _name = string.Empty;
+        private string? _id = string.Empty;
+        private string? _source = string.Empty;
+        private bool _pmd = false;
+        private string? _pocket = string.Empty;
+        private string? _category = string.Empty;
+        private string? _description = string.Empty;
+        private bool _oneUse = false;
         private int _trainerPrice;
         private int _healthRestored;
-        private string? _cures;
-        private List<string>? _boost;
+        private string? _cures = string.Empty;
+        private List<string>? _boost = new();
         private int _value;
-        private string? _forTypes;
-        private List<string>? _forPokemon;
-        private string? _itemSpritePath;
+        private string? _forTypes = string.Empty;
+        private List<string>? _forPokemon = new();
+        private string? _itemSpritePath = string.Empty;
 
         public string? Name
         {

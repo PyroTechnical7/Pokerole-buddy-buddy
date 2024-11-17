@@ -62,11 +62,7 @@ public partial class AbilitiesPage : ContentPage
 
     private async void OnAddAbilityClicked(object sender, EventArgs e)
     {
-        var newAbility = new Ability
-        {
-            AbilityName = "New PokemonAbility",
-            // Initialize other properties as needed
-        };
+        var newAbility = new Ability();
         _abilityList.Add(newAbility);
         await _abilityService.SaveAbilitiesAsync(_abilityList);
         AbilityListView.ItemsSource = null;
