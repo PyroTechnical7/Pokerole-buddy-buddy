@@ -77,6 +77,8 @@ public partial class MovesPage : ContentPage
         await _moveService.SaveMovesAsync(_moveList);
         MoveListView.ItemsSource = null;
         MoveListView.ItemsSource = _moveList;
+
+        await Navigation.PushAsync(new EditMovePage(newMove));
     }
 
 
@@ -144,7 +146,7 @@ public partial class MovesPage : ContentPage
     {
         var exportCollection = new MoveCollection
         {
-            Moves = _moveList
+            Moves = _moveList.Select(p => (Move) p.Clone()).ToList()
         };
 
         var jsonFileType = new FilePickerFileType(new Dictionary<DevicePlatform, IEnumerable<string>>
@@ -247,5 +249,12 @@ public partial class MovesPage : ContentPage
             await DisplayAlert("Error", $"Failed to export Move data: {ex.Message}", "OK");
         }
 
+    }
+
+    public async void OnOrderAlphabetically(object sender, EventArgs e)
+    {
+        _moveList = _moveList.OrderBy(p => p.Name).ToList();
+        MoveListView.ItemsSource = null;
+        MoveListView.ItemsSource = _moveList;
     }
 }

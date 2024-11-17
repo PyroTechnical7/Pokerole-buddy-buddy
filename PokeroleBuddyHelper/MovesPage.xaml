@@ -12,6 +12,9 @@
             <Button Text="Add Move Data and Export" Clicked="ImportWithExportClicked"/>
             <Button Text="Delete all Moves" Clicked="OnClearClicked"/>
         </FlexLayout>
+        <FlexLayout>
+            <Button Text="Order Alphabetically" Clicked="OnOrderAlphabetically"/>
+        </FlexLayout>
         <ListView x:Name="MoveListView" ItemSelected="OnMoveSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -20,6 +23,7 @@
                             <StackLayout VerticalOptions="Center" HorizontalOptions="StartAndExpand">
                                 <Label Text="{Binding Name}" FontSize="20" FontAttributes="Bold" VerticalOptions="Center" />
                                 <Label Text="{Binding Type}" FontSize="16" VerticalOptions="Center" />
+                                <Label Text="{Binding }" FontSize="16" VerticalOptions="Center" />
                             </StackLayout>
                             <Button Text="Delete" 
                                 Command="{Binding Source={RelativeSource AncestorType={x:Type local:MovesPage}}, Path=DeleteMoveCommand}" 

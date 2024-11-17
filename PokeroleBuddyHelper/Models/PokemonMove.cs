@@ -2,11 +2,13 @@
 
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Text.Json.Serialization;
 
 public class PokemonMove : INotifyPropertyChanged
 {
     private string _name = string.Empty;
     private TrainerRank _learnedRank = TrainerRank.Starter;
+
     private int _learnedRankIndex;
 
     public string Name
@@ -35,9 +37,10 @@ public class PokemonMove : INotifyPropertyChanged
         }
     }
 
+    [JsonIgnore]
     public int LearnedRankIndex
     {
-        get => (int) LearnedRank;
+        get => (int)LearnedRank;
         set
         {
             LearnedRank = (TrainerRank)value;

@@ -180,7 +180,7 @@ namespace PokeroleBuddyHelper
         {
             PokemonCollectionWrapper exportCollection = new()
             {
-                PokemonCollection = this._pokemonList
+                PokemonCollection = this._pokemonList.Select(p =>(Pokemon) p.Clone()).ToList()
             };
 
             var jsonFileType = new FilePickerFileType(new Dictionary<DevicePlatform, IEnumerable<string>>

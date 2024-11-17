@@ -67,6 +67,8 @@ public partial class AbilitiesPage : ContentPage
         await _abilityService.SaveAbilitiesAsync(_abilityList);
         AbilityListView.ItemsSource = null;
         AbilityListView.ItemsSource = _abilityList;
+
+        await Navigation.PushAsync(new EditAbilityPage(newAbility));
     }
 
     private async void OnAbilitySelected(object sender, SelectedItemChangedEventArgs e)
@@ -165,7 +167,7 @@ public partial class AbilitiesPage : ContentPage
     {
         var exportCollection = new AbilityCollection
         {
-            Abilities = _abilityList
+            Abilities = this._abilityList.Select(p => (Ability)p.Clone()).ToList()
         };
 
         var jsonFileType = new FilePickerFileType(new Dictionary<DevicePlatform, IEnumerable<string>>

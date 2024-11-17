@@ -59,14 +59,14 @@ public partial class ItemsPage : ContentPage
     {
         var newItem = new Item
         {
-            Name = "New Item",
-            ID = Guid.NewGuid().ToString(),
-            // Initialize other properties as needed
+            Name = "New Item"
         };
         _itemList.Add(newItem);
         await _itemService.SaveItemsAsync(_itemList);
         ItemListView.ItemsSource = null;
         ItemListView.ItemsSource = _itemList;
+
+        await Navigation.PushAsync(new EditItemPage(newItem));
     }
 
     private async void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
@@ -167,7 +167,7 @@ public partial class ItemsPage : ContentPage
     {
         var exportCollection = new ItemCollection
         {
-            ItemList = _itemList
+            ItemList = this._itemList.Select(p => (Item)p.Clone()).ToList()
         };
 
         var jsonFileType = new FilePickerFileType(new Dictionary<DevicePlatform, IEnumerable<string>>
