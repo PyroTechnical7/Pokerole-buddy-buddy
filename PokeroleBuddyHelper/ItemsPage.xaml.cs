@@ -246,4 +246,11 @@ public partial class ItemsPage : ContentPage
         Title = "Result was null";
         return null;
     }
+
+    public async void OnOrderAlphabetically(object sender, EventArgs e)
+    {
+        _itemList = _itemList.OrderBy(p => p.Name).ToList();
+        ItemListView.ItemsSource = null;
+        ItemListView.ItemsSource = _itemList;
+    }
 }

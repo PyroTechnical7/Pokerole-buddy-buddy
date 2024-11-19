@@ -13,7 +13,7 @@
             <Button Text="Delete all Items" Clicked="OnClearClicked"/>
         </FlexLayout>
         <FlexLayout>
-            
+            <Button Text="Order Alphabetically" Clicked="OnOrderAlphabetically"/>
         </FlexLayout>
         <ListView x:Name="ItemListView" ItemSelected="OnItemSelected">
             <ListView.ItemTemplate>
@@ -22,7 +22,6 @@
                         <StackLayout Padding="6" Orientation="Horizontal">
                             <StackLayout VerticalOptions="Center" HorizontalOptions="StartAndExpand">
                                 <Label Text="{Binding Name}" FontSize="20" FontAttributes="Bold" VerticalOptions="Center" />
-                                <Label Text="{Binding Description}" FontSize="16" VerticalOptions="Center" />
                             </StackLayout>
                             <Button Text="Delete" 
                                  Command="{Binding Source={RelativeSource AncestorType={x:Type local:ItemsPage}}, Path=DeleteItemCommand}" 
