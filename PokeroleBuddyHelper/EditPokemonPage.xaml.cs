@@ -2,6 +2,7 @@ using Microsoft.Maui.Controls;
 using PokeroleBuddyHelper.Models;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Text.Json;
 using System.Windows.Input;
 
 namespace PokeroleBuddyHelper
@@ -224,6 +225,38 @@ namespace PokeroleBuddyHelper
             Pokemon.BoxSpriteFemale = _spriteString + "female/" + Pokemon._id + ".png";
             Pokemon.BoxSpriteShiny = _shinySpriteString + Pokemon._id + ".png";
             Pokemon.BoxSpriteFemaleShiny = _shinySpriteString + "female/" + Pokemon._id + ".png";
+        }
+
+        private async void OnImportPokemonMovesClicked(object sender, EventArgs e)
+        {
+            var inputPage = new MultiLineInputPage();
+            await Navigation.PushModalAsync(inputPage);
+
+            inputPage.Disappearing += async (s, args) =>
+            {
+                string json = inputPage.InputText;
+                if (!string.IsNullOrEmpty(json))
+                {
+                    var importedMoves = JsonSerializer.Deserialize<ImportedMoves>(json);
+                    if (importedMoves != null)
+                    {
+                        Pokemon.Moves.Clear();
+                        foreach (var move in importedMoves.Moves)
+                        {
+                            Pokemon.Moves.Add(new PokemonMove
+                            {
+                                Name = move.Name,
+                                LearnedRank = (TrainerRank)move.LearnedRank
+                            });
+                        }
+                    }
+                }
+            };
+        }
+
+        private class ImportedMoves
+        {
+            public List<PokemonMove> Moves { get; set; }
         }
     }
 }

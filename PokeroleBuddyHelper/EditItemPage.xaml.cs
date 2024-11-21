@@ -34,7 +34,7 @@ namespace PokeroleBuddyHelper
             Item = unedittedItem;
         }
 
-        private void OnSpriteAutoFillClicked(object sender, EventArgs e)
+        private async void OnSpriteAutoFillClicked(object sender, EventArgs e)
         {
             Item.ItemSpritePath = "Graphics/Items/" + Item.ID + ".png";
         }

@@ -265,7 +265,10 @@
             </FlexLayout>
 
             <Label Text="Moves" FontSize="Medium" HorizontalOptions="Center" />
-            <Button Text="Add Move" Clicked="OnAddMoveClicked" />
+            <FlexLayout>
+                <Button Text="Add Move" Clicked="OnAddMoveClicked" />
+                <Button Text="Import Moves from JSON" Clicked="OnImportPokemonMovesClicked" />
+            </FlexLayout>
             <CollectionView x:Name="MovesView" ItemsSource="{Binding Pokemon.Moves}" WidthRequest="400" HorizontalOptions="StartAndExpand">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>

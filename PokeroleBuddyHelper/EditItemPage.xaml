@@ -57,7 +57,7 @@
             </FlexLayout>
 
             <FlexLayout>
-                <Button Clicked="OnSpriteAutoFillClicked" Text="Autofill with ID" WidthRequest="150" />
+                <Button Clicked="OnSpriteAutoFillClicked" Text="Autofill Sprite Path with ID" WidthRequest="150" />
             </FlexLayout>
             <FlexLayout AlignItems="Center" Margin="0,10">
 
