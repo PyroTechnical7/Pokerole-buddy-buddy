@@ -120,7 +120,14 @@ namespace PokeroleBuddyHelper.Models
         public string? ItemSpritePath
         {
             get => _itemSpritePath;
-            set => SetProperty(ref _itemSpritePath, value);
+            set
+            {
+                if (_itemSpritePath != value)
+                {
+                    _itemSpritePath = value;
+                    OnPropertyChanged();
+                }
+            }
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;

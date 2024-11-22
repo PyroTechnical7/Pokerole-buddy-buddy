@@ -198,13 +198,13 @@ namespace PokeroleBuddyHelper
 
             foreach (var pokemon in _pokemonList)
             {
-                var existingPokemon = originalCollection.FirstOrDefault(p => p._id == pokemon.EvolvesFrom);
+                var existingPokemon = originalCollection.FirstOrDefault(p => p.DexID == pokemon.EvolvesFrom);
                 if (existingPokemon != null)
                 {
                     Evolution customEvolution = new()
                     {
-                        Kind = "Level",
-                        To = pokemon._id,
+                        Kind = "Special",
+                        To = pokemon.DexID,
                         Item = "",
                         Speed = 0
                     };
